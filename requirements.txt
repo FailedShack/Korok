@@ -1,0 +1,7 @@
+beautifulsoup4
+discord.py
+google
+humanize
+lxml
+matplotlib
+requests

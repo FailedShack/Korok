@@ -1,0 +1,6 @@
+subject=(?:title\s*keys?|keys? site|keysite|tickets?)
+pronouns=(?:what|which)
+verb=(?:find|give|gimme|need|want|get)
+question=(?:please|pls|\?)
+help=help.+with
+(?i)${pronouns}.+${subject}|${subject}.+${pronouns}|${verb}.+${subject}|${subject}\s*${question}|${help}.+${subject}|best.+${subject}
